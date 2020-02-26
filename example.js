@@ -39,9 +39,9 @@ var App = function (_React$Component) {
       showIndex: false,
       showBullets: true,
       infinite: true,
-      showThumbnails: true,
+      showThumbnails: false,
       showFullscreenButton: true,
-      showGalleryFullscreenButton: true,
+      showGalleryFullscreenButton: false,
       showPlayButton: true,
       showGalleryPlayButton: true,
       showNav: true,
@@ -248,6 +248,9 @@ var App = function (_React$Component) {
           slideOnThumbnailOver: this.state.slideOnThumbnailOver,
           additionalClass: 'app-image-gallery'
         }),
+
+				/* JL: remove "Setting" sesstion from the front-page */
+				/*
         _react2.default.createElement(
           'div',
           { className: 'app-sandbox' },
@@ -472,6 +475,7 @@ var App = function (_React$Component) {
             )
           )
         )
+				*/
       );
     }
   }]);
