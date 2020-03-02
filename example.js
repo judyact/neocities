@@ -25,7 +25,9 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var PREFIX_URL = 'https://raw.githubusercontent.com/xiaolin/react-image-gallery/master/static/';
+/* JL: add our own headshot */
+/* var PREFIX_URL = 'https://raw.githubusercontent.com/xiaolin/react-image-gallery/master/static/'; */
+var PREFIX_URL = 'https://raw.githubusercontent.com/judyact/neocities/master/pictures/';
 
 var App = function (_React$Component) {
   _inherits(App, _React$Component);
@@ -55,7 +57,9 @@ var App = function (_React$Component) {
 
     _this.images = [{
       thumbnail: PREFIX_URL + '4v.jpg',
-      original: PREFIX_URL + '4v.jpg',
+			/* JL: adjust name of image. */
+			/* original: PREFIX_URL + '4v.jpg', */
+			original: PREFIX_URL + '1.jpg',
       embedUrl: 'https://www.youtube.com/embed/4pSzhZ76GdM?autoplay=1&showinfo=0',
       description: 'Render custom slides within the gallery',
       renderItem: _this._renderVideo.bind(_this)
@@ -138,7 +142,9 @@ var App = function (_React$Component) {
     key: '_getStaticImages',
     value: function _getStaticImages() {
       var images = [];
-      for (var i = 2; i < 12; i++) {
+			/* JL: Adjust images number */
+      /* for (var i = 2; i < 12; i++) { */
+      for (var i = 2; i < 1; i++) {
         images.push({
           original: '' + PREFIX_URL + i + '.jpg',
           thumbnail: '' + PREFIX_URL + i + 't.jpg'
