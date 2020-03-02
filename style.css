@@ -70,3 +70,33 @@ a:active {
 background: #34495e;
 border-color: #2c3e50;
 }
+
+.header-social-links {
+    background-color: #23d9d9;
+    color: blue;
+    font-size: 1.06em;
+    height: 45px;
+    width: 100%;
+}
+
+.header-social-links-container {
+    margin: 0 auto;
+    max-width: 1020px;
+    width: 90%;
+}
+
+.header-social-icons-position {
+    float: right;
+    margin: 10px 0;
+}
+
+.header-social-icon {
+    border: 2px solid #50005b;
+    color: blue;
+    margin: 0 5px;
+    padding: 3px 6px;
+}
+
+.icon-facebook:before {
+    content: "f";
+}
