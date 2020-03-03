@@ -103,3 +103,23 @@ border-color: #2c3e50;
 .fa-imdb:before {
   content: "\f2d8";
 }
+
+*{padding:0;margin:0;}
+
+.float{
+  z-index: 3;
+	position:fixed;
+  /* width: 40px; */
+  /* height: 40px; */
+  bottom: 14px;
+  right: 20px;
+	background-color:#0C9;
+	color:#FFF;
+	border-radius:20px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+}
+
+.my-float{
+	margin-top:22px;
+}
