@@ -74,6 +74,10 @@ border-color: #2c3e50;
     font-size: 1.06em;
     height: 45px;
     width: 100%;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 999;
 }
 
 .header-social-links-container {
@@ -134,4 +138,8 @@ border-color: #2c3e50;
 
 .my-float{
 	margin-top:22px;
+}
+
+.adjust-sticky-top {
+  padding-top: 45px
 }
