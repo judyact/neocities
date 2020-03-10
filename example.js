@@ -42,10 +42,10 @@ var App = function (_React$Component) {
       showBullets: true,
       infinite: true,
       showThumbnails: false,
-      showFullscreenButton: true,
+      showFullscreenButton: false,
       showGalleryFullscreenButton: false,
       showPlayButton: true,
-      showGalleryPlayButton: true,
+      showGalleryPlayButton: false,
       showNav: true,
       isRTL: false,
       slideDuration: 450,
@@ -55,31 +55,7 @@ var App = function (_React$Component) {
       showVideo: {}
     };
 
-    _this.images = [{
-      thumbnail: PREFIX_URL + '4v.jpg',
-			/* JL: adjust name of image. */
-			/* original: PREFIX_URL + '4v.jpg', */
-			original: PREFIX_URL + '1.jpg',
-      embedUrl: 'https://www.youtube.com/embed/4pSzhZ76GdM?autoplay=1&showinfo=0',
-      description: 'Render custom slides within the gallery',
-      renderItem: _this._renderVideo.bind(_this)
-    }, {
-      original: PREFIX_URL + 'image_set_default.jpg',
-      thumbnail: PREFIX_URL + 'image_set_thumb.jpg',
-      imageSet: [{
-        srcSet: PREFIX_URL + 'image_set_cropped.jpg',
-        media: '(max-width: 1280px)'
-      }, {
-        srcSet: PREFIX_URL + 'image_set_default.jpg',
-        media: '(min-width: 1280px)'
-      }]
-    }, {
-      original: PREFIX_URL + '1.jpg',
-      thumbnail: PREFIX_URL + '1t.jpg',
-      originalClass: 'featured-slide',
-      thumbnailClass: 'featured-thumb',
-      description: 'Custom class for slides & thumbnails'
-    }].concat(_this._getStaticImages());
+    _this.images = [].concat(_this._getStaticImages());
     return _this;
   }
 
@@ -144,7 +120,7 @@ var App = function (_React$Component) {
       var images = [];
 			/* JL: Adjust images number */
       /* for (var i = 2; i < 12; i++) { */
-      for (var i = 2; i < 1; i++) {
+      for (var i = 2; i < 3; i++) {
         images.push({
           original: '' + PREFIX_URL + i + '.jpg',
           thumbnail: '' + PREFIX_URL + i + 't.jpg'
