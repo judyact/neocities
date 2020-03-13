@@ -143,3 +143,55 @@ border-color: #2c3e50;
 .adjust-sticky-top {
   padding-top: 45px
 }
+
+.ct-section {
+    background-size: cover;
+    background-repeat: repeat;
+    background-color: #f542b0;
+    margin-top: 3em;
+    padding: 1em;
+}
+
+.ct-section-inner-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ct-new-columns {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.ct-div-block {
+    display: flex;
+    flex-wrap: nowrap;
+    /* flex-direction: column; */
+    align-items: flex-start;
+    padding-right: 30%;
+}
+
+.menu-footer {
+  list-style-type:none
+}
+
+.menu-item {
+  padding: 1em;
+}
+
+.menu-footer-first-container {
+}
+
+li a {
+  background: none;
+  color: white;
+}
+
+.trade-mark {
+  padding: 1em;
+  color: blue;
+}
