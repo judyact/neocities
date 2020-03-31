@@ -55,7 +55,14 @@ var App = function (_React$Component) {
       showVideo: {}
     };
 
-    _this.images = [].concat(_this._getStaticImages());
+    _this.images = [
+			{
+        original: PREFIX_URL + `2.jpg`,
+        embedUrl: 'https://www.youtube.com/embed/LAX463b5Y5E?autoplay=1&showinfo=0',
+        description: 'Render custom slides within the gallery',
+				renderItem: this._renderVideo.bind(this)
+			}
+		].concat(_this._getStaticImages());
     return _this;
   }
 
