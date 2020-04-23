@@ -57,15 +57,15 @@ var App = function (_React$Component) {
 
     _this.images = [
 			{
-        original: PREFIX_URL + `2.jpg`,
-        embedUrl: 'https://www.youtube.com/embed/LAX463b5Y5E?autoplay=1&showinfo=0',
-        description: 'Click for the short film "Run"',
-				renderItem: this._renderVideo.bind(this)
-			},
-			{
         original: PREFIX_URL + `4.jpg`,
         embedUrl: 'https://www.youtube.com/embed/l6WtnLccI-U?autoplay=1&showinfo=0',
         description: 'Click for the self-tape "God is tired"',
+				renderItem: this._renderVideo.bind(this)
+			},
+			{
+        original: PREFIX_URL + `100.jpg`,
+        embedUrl: 'https://www.youtube.com/embed/7b398KD8xwY?autoplay=1&showinfo=0',
+        description: 'Click for the short film "The Signal"',
 				renderItem: this._renderVideo.bind(this)
 			}
 		].concat(_this._getStaticImages());
