@@ -73,11 +73,22 @@ border-color: #2c3e50;
     background-color: #23d9d9;
     font-size: 1.06em;
     height: 45px;
-    width: 100%;
-    position: fixed;
+    width: 50%;
     right: 0;
     left: 0;
     z-index: 999;
+    float: left;
+}
+
+.header-social-links-50 {
+    background-color: #23d9d9;
+    font-size: 1.06em;
+    height: 45px;
+    width: 50%;
+    right: 0;
+    left: 80%;
+    z-index: 99;
+    float: right;
 }
 
 .header-social-links-container {
@@ -98,7 +109,7 @@ border-color: #2c3e50;
 
 .header-social-icons-position {
     float: right;
-    margin: 10px 0;
+    margin: 10px 20px;
 }
 
 .header-social-icon {
@@ -194,4 +205,34 @@ li a {
 .trade-mark {
   padding: 1em;
   color: blue;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(-2%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes shrink {
+  0% {
+    width: 95%;
+  }
+  100% {
+    width: 90%;
+  }
 }
