@@ -222,15 +222,18 @@ class MenuButton extends React.Component {
         transform: this.state.open ? 'rotate(45deg)':'none',
         transformOrigin: 'top left',
         marginBottom: '5px',
+				background: 'blue',
       },
       lineMiddle: {
         opacity: this.state.open ? 0: 1,
         transform: this.state.open ? 'translateX(-16px)':'none',
+				background: 'yellow',
       },
       lineBottom: {
         transform: this.state.open ? 'translateX(-1px) rotate(-45deg)':'none',
         transformOrigin: 'top left',
         marginTop: '5px',
+				background: 'red',
       },       
     }
     return(
