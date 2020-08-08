@@ -20,7 +20,7 @@ class App extends React.Component {
     } else if (val.localeCompare('Voice Over') == 0) {
       window.location.href="https://www.backstage.com/u/judy-lee/media/audio/";
     } else if (val.localeCompare('Writing') == 0) {
-      window.location.href="https://www.scribd.com/user/498077157/judy-lee/uploads";
+      window.location.href="https://drive.google.com/drive/folders/1FDuDZsv_QTkHzhrLeI00MNnBzl7zth5x?usp=sharing";
     };
     // window.location.href="http://google.com";
   }
