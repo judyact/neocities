@@ -187,6 +187,7 @@ class MenuButton extends React.Component {
     this.state={
       open: this.props.open? this.props.open:false,
       color: this.props.color? this.props.color:'black',
+      hover:false,
     }
   }
 
@@ -200,6 +201,10 @@ class MenuButton extends React.Component {
   this.setState({open:!this.state.open});
   }
   
+  handleHover(){
+    this.setState({hover:!this.state.hover});
+  }
+
   render(){
     const styles = {
       container: {
@@ -211,6 +216,7 @@ class MenuButton extends React.Component {
         alignItems: 'center',
         cursor: 'pointer',
         padding: '4px',
+        background: this.state.hover? '#f542b0':'#FF69B4',
       },
       line: {
         height: '2px',
@@ -222,22 +228,24 @@ class MenuButton extends React.Component {
         transform: this.state.open ? 'rotate(45deg)':'none',
         transformOrigin: 'top left',
         marginBottom: '5px',
-				background: 'blue',
+				background: 'white',
       },
       lineMiddle: {
         opacity: this.state.open ? 0: 1,
         transform: this.state.open ? 'translateX(-16px)':'none',
-				background: 'yellow',
+				background: 'white',
       },
       lineBottom: {
         transform: this.state.open ? 'translateX(-1px) rotate(-45deg)':'none',
         transformOrigin: 'top left',
         marginTop: '5px',
-				background: 'red',
+				background: 'white',
       },       
     }
     return(
-      <div style={styles.container} 
+      <div style={styles.container}
+        onMouseEnter={()=>{this.handleHover();}}
+        onMouseLeave={()=>{this.handleHover();}}
         onClick={this.props.onClick ? this.props.onClick: 
           ()=> {this.handleClick();}}>
         <div style={{...styles.line,...styles.lineTop}}/>
