@@ -16,7 +16,7 @@ class App extends React.Component {
     console.log(val);
     
     if (val.localeCompare('Resume') == 0) {
-      window.location.href="https://drive.google.com/file/d/1N3tBG4Gq5-Z_R_YHE73x3iEBEY4UUbBQ/view?usp=sharing";
+      window.location.href="https://drive.google.com/file/d/1ECTYGwGP3rHjtfCAco8H37O8sFPRPR9_/view?usp=sharing";
     } else if (val.localeCompare('Voice Over') == 0) {
       window.location.href="https://www.backstage.com/u/judy-lee/media/audio/";
     } else if (val.localeCompare('Writing') == 0) {
