@@ -133,7 +133,8 @@ var App = function (_React$Component) {
       var images = [];
 			/* JL: Adjust images number */
       /* for (var i = 2; i < 12; i++) { */
-      for (var i = 2; i < 4; i++) {
+      /* for (var i = 2; i < 4; i++) { */
+			for (var i = 0; i < 4; i++) {
         images.push({
           original: '' + PREFIX_URL + i + '.jpg',
           thumbnail: '' + PREFIX_URL + i + 't.jpg'
