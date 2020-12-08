@@ -67,6 +67,12 @@ var App = function (_React$Component) {
         embedUrl: 'https://www.youtube.com/embed/7b398KD8xwY?autoplay=1&showinfo=0',
         description: 'Click for the short film "The Signal"',
 				renderItem: this._renderVideo.bind(this)
+			},
+			{
+        original: PREFIX_URL + `101.jpg`,
+        embedUrl: 'https://www.youtube.com/embed/3FsLO6eLIuU?autoplay=1&showinfo=0',
+        description: 'Click for the short sketch "Zoom-gasm"',
+				renderItem: this._renderVideo.bind(this)
 			}
 		].concat(_this._getStaticImages());
     return _this;
