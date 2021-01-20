@@ -73,6 +73,12 @@ var App = function (_React$Component) {
         embedUrl: 'https://www.youtube.com/embed/3FsLO6eLIuU?autoplay=1&showinfo=0',
         description: 'Click for the short sketch "Zoom-gasm"',
 				renderItem: this._renderVideo.bind(this)
+			},
+			{
+        original: PREFIX_URL + `102.jpg`,
+        embedUrl: 'https://www.youtube.com/embed/kqBGhnzNH0Y?autoplay=1&showinfo=0',
+        description: 'Click for comedic hosting reel.',
+				renderItem: this._renderVideo.bind(this)
 			}
 		].concat(_this._getStaticImages());
     return _this;
