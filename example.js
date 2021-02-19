@@ -64,8 +64,8 @@ var App = function (_React$Component) {
 			},
 			{
         original: PREFIX_URL + `5.jpg`,
-        embedUrl: 'https://www.youtube.com/embed/aNPShSCbZhc?start=2172?autoplay=1&showinfo=0',
-        description: 'Click for the self-tape "God is tired"',
+        embedUrl: 'https://www.youtube-nocookie.com/embed/aNPShSCbZhc?start=2172&end=2278&autoplay=1;rel=0&amp;showinfo=0',
+        description: 'Click for the "Spoon River Anthology"',
 				renderItem: this._renderVideo.bind(this)
 			},
 			{
