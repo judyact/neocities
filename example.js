@@ -63,6 +63,12 @@ var App = function (_React$Component) {
 				renderItem: this._renderVideo.bind(this)
 			},
 			{
+        original: PREFIX_URL + `5.jpg`,
+        embedUrl: 'https://www.youtube.com/embed/aNPShSCbZhc?start=2172?autoplay=1&showinfo=0',
+        description: 'Click for the self-tape "God is tired"',
+				renderItem: this._renderVideo.bind(this)
+			},
+			{
         original: PREFIX_URL + `100.jpg`,
         embedUrl: 'https://www.youtube.com/embed/7b398KD8xwY?autoplay=1&showinfo=0',
         description: 'Click for the short film "The Signal"',
