@@ -69,6 +69,12 @@ var App = function (_React$Component) {
 				renderItem: this._renderVideo.bind(this)
 			},
 			{
+        original: PREFIX_URL + `6.jpg`,
+        embedUrl: 'https://www.youtube.com/embed/b_rFqXylck4?autoplay=1&showinfo=0',
+        description: 'Click for Judy Lee Sizzle Reel (1 minute)',
+				renderItem: this._renderVideo.bind(this)
+			},
+			{
         original: PREFIX_URL + `100.jpg`,
         embedUrl: 'https://www.youtube.com/embed/7b398KD8xwY?autoplay=1&showinfo=0',
         description: 'Click for the short film "The Signal"',
