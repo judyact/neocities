@@ -57,9 +57,9 @@ var App = function (_React$Component) {
 
     _this.images = [
 			{
-        original: PREFIX_URL + `4.jpg`,
-        embedUrl: 'https://www.youtube.com/embed/l6WtnLccI-U?autoplay=1&showinfo=0',
-        description: 'Click for the self-tape "God is tired"',
+        original: PREFIX_URL + `6.jpg`,
+        embedUrl: 'https://www.youtube.com/embed/b_rFqXylck4?autoplay=1&showinfo=0',
+        description: 'Click for Judy Lee Sizzle Reel (1 minute)',
 				renderItem: this._renderVideo.bind(this)
 			},
 			{
@@ -69,9 +69,9 @@ var App = function (_React$Component) {
 				renderItem: this._renderVideo.bind(this)
 			},
 			{
-        original: PREFIX_URL + `6.jpg`,
-        embedUrl: 'https://www.youtube.com/embed/b_rFqXylck4?autoplay=1&showinfo=0',
-        description: 'Click for Judy Lee Sizzle Reel (1 minute)',
+        original: PREFIX_URL + `4.jpg`,
+        embedUrl: 'https://www.youtube.com/embed/l6WtnLccI-U?autoplay=1&showinfo=0',
+        description: 'Click for the self-tape "God is tired"',
 				renderItem: this._renderVideo.bind(this)
 			},
 			{
