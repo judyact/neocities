@@ -58,7 +58,7 @@ var App = function (_React$Component) {
     _this.images = [
 			{
         original: PREFIX_URL + `7.jpg`,
-        embedUrl: 'https://www.youtube.com/embed/CAJdRjWezxs?start=374?autoplay=1&showinfo=0',
+        embedUrl: 'https://www.youtube.com/embed/CAJdRjWezxs?start=374&autoplay=1&showinfo=0',
         description: 'Click for Judy Lee as Chinese Agent in "Everybody Loves the Livingood"',
 				renderItem: this._renderVideo.bind(this)
 			},
