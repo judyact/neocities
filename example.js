@@ -64,7 +64,7 @@ var App = function (_React$Component) {
 			},
 			{
         original: PREFIX_URL + `8.png`,
-        embedUrl: 'https://www.youtube.com/embed/zvbVT1zrjBw&autoplay=1&showinfo=0',
+        embedUrl: 'https://www.youtube.com/embed/zvbVT1zrjBw?autoplay=1&showinfo=0',
         description: 'Click for Judy Lee STUNT REEL',
 				renderItem: this._renderVideo.bind(this)
 			},
