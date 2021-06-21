@@ -57,15 +57,21 @@ var App = function (_React$Component) {
 
     _this.images = [
 			{
-        original: PREFIX_URL + `7.jpg`,
-        embedUrl: 'https://www.youtube.com/embed/CAJdRjWezxs?start=374&autoplay=1&showinfo=0',
-        description: 'Click for Judy Lee as Chinese Agent in "Everybody Loves the Livingood"',
-				renderItem: this._renderVideo.bind(this)
-			},
-			{
         original: PREFIX_URL + `6.jpg`,
         embedUrl: 'https://www.youtube.com/embed/b_rFqXylck4?autoplay=1&showinfo=0',
         description: 'Click for Judy Lee Sizzle Reel (1 minute)',
+				renderItem: this._renderVideo.bind(this)
+			},
+			{
+        original: PREFIX_URL + `8.png`,
+        embedUrl: 'https://www.youtube.com/embed/zvbVT1zrjBw&autoplay=1&showinfo=0',
+        description: 'Click for Judy Lee STUNT REEL',
+				renderItem: this._renderVideo.bind(this)
+			},
+			{
+        original: PREFIX_URL + `7.jpg`,
+        embedUrl: 'https://www.youtube.com/embed/CAJdRjWezxs?start=374&autoplay=1&showinfo=0',
+        description: 'Click for Judy Lee as Chinese Agent in "Everybody Loves the Livingood"',
 				renderItem: this._renderVideo.bind(this)
 			},
 			{
