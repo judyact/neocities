@@ -57,6 +57,18 @@ var App = function (_React$Component) {
 
     _this.images = [
 			{
+        original: PREFIX_URL + `103.png`,
+        embedUrl: 'https://www.youtube.com/embed/Gldel3OETgE?autoplay=1&showinfo=0',
+        description: 'Click for "Chicken Fingers" clip.',
+				renderItem: this._renderVideo.bind(this)
+			},
+			{
+        original: PREFIX_URL + `104.png`,
+        embedUrl: 'https://www.youtube.com/embed/CcxUju06qq4?autoplay=1&showinfo=0',
+        description: 'Click for "The A-Men" clip.',
+				renderItem: this._renderVideo.bind(this)
+			},
+			{
         original: PREFIX_URL + `6.jpg`,
         embedUrl: 'https://www.youtube.com/embed/b_rFqXylck4?autoplay=1&showinfo=0',
         description: 'Click for Judy Lee Sizzle Reel (1 minute)',
@@ -78,24 +90,6 @@ var App = function (_React$Component) {
         original: PREFIX_URL + `5.jpg`,
         embedUrl: 'https://www.youtube-nocookie.com/embed/aNPShSCbZhc?start=2172&end=2278&autoplay=1;rel=0&amp;showinfo=0',
         description: 'Click for the "Spoon River Anthology"',
-				renderItem: this._renderVideo.bind(this)
-			},
-			{
-        original: PREFIX_URL + `4.jpg`,
-        embedUrl: 'https://www.youtube.com/embed/l6WtnLccI-U?autoplay=1&showinfo=0',
-        description: 'Click for the self-tape "God is tired"',
-				renderItem: this._renderVideo.bind(this)
-			},
-			{
-        original: PREFIX_URL + `100.jpg`,
-        embedUrl: 'https://www.youtube.com/embed/7b398KD8xwY?autoplay=1&showinfo=0',
-        description: 'Click for the short film "The Signal"',
-				renderItem: this._renderVideo.bind(this)
-			},
-			{
-        original: PREFIX_URL + `101.jpg`,
-        embedUrl: 'https://www.youtube.com/embed/3FsLO6eLIuU?autoplay=1&showinfo=0',
-        description: 'Click for the short sketch "Zoom-gasm"',
 				renderItem: this._renderVideo.bind(this)
 			},
 			{
