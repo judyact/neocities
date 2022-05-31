@@ -57,6 +57,12 @@ var App = function (_React$Component) {
 
     _this.images = [
 			{
+        original: PREFIX_URL + `105.png`,
+        embedUrl: 'https://www.youtube.com/embed/45EPDH-FsFM?autoplay=1&showinfo=0',
+        description: 'Click for "Bruises" clip.',
+				renderItem: this._renderVideo.bind(this)
+			},
+			{
         original: PREFIX_URL + `103.png`,
         embedUrl: 'https://www.youtube.com/embed/Gldel3OETgE?autoplay=1&showinfo=0',
         description: 'Click for "Chicken Fingers" clip.',
