@@ -57,6 +57,25 @@ var App = function (_React$Component) {
 
     _this.images = [
 			{
+        original: PREFIX_URL + `108.png`,
+        embedUrl: 'https://www.youtube.com/embed/Z-5xImDVmvg?autoplay=1&showinfo=0',
+        description: 'Click for "1-min Demo Reel".',
+				renderItem: this._renderVideo.bind(this)
+			},
+
+			{
+        original: PREFIX_URL + `107.png`,
+        embedUrl: 'https://www.youtube.com/embed/8tKwA-I1KFA?autoplay=1&showinfo=0',
+        description: 'Click for "3-min Demo Reel".',
+				renderItem: this._renderVideo.bind(this)
+			},
+			{
+        original: PREFIX_URL + `106.png`,
+        embedUrl: 'https://www.youtube.com/embed/cvzSpkmo5DU?autoplay=1&showinfo=0',
+        description: 'Click for "The 7th Circle" clip.',
+				renderItem: this._renderVideo.bind(this)
+			},
+			{
         original: PREFIX_URL + `105.png`,
         embedUrl: 'https://www.youtube.com/embed/45EPDH-FsFM?autoplay=1&showinfo=0',
         description: 'Click for "Bruises" clip.',
