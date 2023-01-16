@@ -58,8 +58,8 @@ var App = function (_React$Component) {
     _this.images = [
 			{
         original: PREFIX_URL + `108.png`,
-        embedUrl: 'https://www.youtube.com/embed/Z-5xImDVmvg?autoplay=1&showinfo=0',
-        description: 'Click for "1-min Demo Reel".',
+        embedUrl: 'https://www.youtube.com/embed/52pwHxCYZdo?autoplay=1&showinfo=0',
+        description: 'Click for "JUDY LEE Demo Reel".',
 				renderItem: this._renderVideo.bind(this)
 			},
 
@@ -82,47 +82,17 @@ var App = function (_React$Component) {
 				renderItem: this._renderVideo.bind(this)
 			},
 			{
-        original: PREFIX_URL + `103.png`,
-        embedUrl: 'https://www.youtube.com/embed/Gldel3OETgE?autoplay=1&showinfo=0',
-        description: 'Click for "Chicken Fingers" clip.',
-				renderItem: this._renderVideo.bind(this)
-			},
-			{
         original: PREFIX_URL + `104.png`,
         embedUrl: 'https://www.youtube.com/embed/CcxUju06qq4?autoplay=1&showinfo=0',
         description: 'Click for "The A-Men" clip.',
 				renderItem: this._renderVideo.bind(this)
 			},
 			{
-        original: PREFIX_URL + `6.jpg`,
-        embedUrl: 'https://www.youtube.com/embed/b_rFqXylck4?autoplay=1&showinfo=0',
-        description: 'Click for Judy Lee Sizzle Reel (1 minute)',
-				renderItem: this._renderVideo.bind(this)
-			},
-			{
         original: PREFIX_URL + `8.png`,
-        embedUrl: 'https://www.youtube.com/embed/zvbVT1zrjBw?autoplay=1&showinfo=0',
+        embedUrl: 'https://www.youtube.com/embed/E6bH0nWoDBk?autoplay=1&showinfo=0',
         description: 'Click for Judy Lee STUNT REEL',
 				renderItem: this._renderVideo.bind(this)
 			},
-			{
-        original: PREFIX_URL + `7.jpg`,
-        embedUrl: 'https://www.youtube.com/embed/CAJdRjWezxs?start=374&autoplay=1&showinfo=0',
-        description: 'Click for Judy Lee as Chinese Agent in "Everybody Loves the Livingood"',
-				renderItem: this._renderVideo.bind(this)
-			},
-			{
-        original: PREFIX_URL + `5.jpg`,
-        embedUrl: 'https://www.youtube-nocookie.com/embed/aNPShSCbZhc?start=2172&end=2278&autoplay=1;rel=0&amp;showinfo=0',
-        description: 'Click for the "Spoon River Anthology"',
-				renderItem: this._renderVideo.bind(this)
-			},
-			{
-        original: PREFIX_URL + `102.jpg`,
-        embedUrl: 'https://www.youtube.com/embed/kqBGhnzNH0Y?autoplay=1&showinfo=0',
-        description: 'Click for comedic hosting reel.',
-				renderItem: this._renderVideo.bind(this)
-			}
 		].concat(_this._getStaticImages());
     return _this;
   }
