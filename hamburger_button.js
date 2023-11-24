@@ -17,9 +17,9 @@ class App extends React.Component {
     
     if (val.localeCompare('Resume') == 0) {
       window.location.href="JUDY LEE Resume.pdf";
-    } else if (val.localeCompare('Voice Over') == 0) {
-      window.location.href="https://www.backstage.com/u/judy-lee/media/audio/";
-    } else if (val.localeCompare('Writing') == 0) {
+    } else if (val.localeCompare('Actors Access') == 0) {
+      window.location.href="https://resumes.actorsaccess.com/judylee";
+    } else if (val.localeCompare('Writing Samples') == 0) {
       window.location.href="https://drive.google.com/drive/folders/1FDuDZsv_QTkHzhrLeI00MNnBzl7zth5x?usp=sharing";
     };
     // window.location.href="http://google.com";
@@ -51,7 +51,7 @@ class App extends React.Component {
           transition: 'filter 0.5s ease',
         },        
       }
-    const menu = ['Resume', 'Voice Over', 'Writing']
+    const menu = ['Resume', 'Actors Access', 'Writing Samples']
     const menuItems = menu.map((val,index)=>{
       return (
         <MenuItem 
@@ -215,7 +215,7 @@ class MenuButton extends React.Component {
         justifyContent: 'center',
         alignItems: 'center',
         cursor: 'pointer',
-        padding: '4px',
+        padding: '5px',
         background: this.state.hover? '#f542b0':'#FF69B4',
       },
       line: {
