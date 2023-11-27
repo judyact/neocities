@@ -62,19 +62,6 @@ var App = function (_React$Component) {
         description: 'Click for "JUDY LEE Demo Reel".',
 				renderItem: this._renderVideo.bind(this)
 			},
-
-			{
-        original: PREFIX_URL + `106.png`,
-        embedUrl: 'https://www.youtube.com/embed/cvzSpkmo5DU?autoplay=1&showinfo=0',
-        description: 'Click for "The 7th Circle" clip.',
-				renderItem: this._renderVideo.bind(this)
-			},
-			{
-        original: PREFIX_URL + `105.png`,
-        embedUrl: 'https://www.youtube.com/embed/45EPDH-FsFM?autoplay=1&showinfo=0',
-        description: 'Click for "Bruises" clip.',
-				renderItem: this._renderVideo.bind(this)
-			},
 			{
         original: PREFIX_URL + `8.png`,
         embedUrl: 'https://www.youtube.com/embed/E6bH0nWoDBk?autoplay=1&showinfo=0',
