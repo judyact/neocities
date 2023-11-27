@@ -76,12 +76,6 @@ var App = function (_React$Component) {
 				renderItem: this._renderVideo.bind(this)
 			},
 			{
-        original: PREFIX_URL + `104.png`,
-        embedUrl: 'https://www.youtube.com/embed/CcxUju06qq4?autoplay=1&showinfo=0',
-        description: 'Click for "The A-Men" clip.',
-				renderItem: this._renderVideo.bind(this)
-			},
-			{
         original: PREFIX_URL + `8.png`,
         embedUrl: 'https://www.youtube.com/embed/E6bH0nWoDBk?autoplay=1&showinfo=0',
         description: 'Click for Judy Lee STUNT REEL',
