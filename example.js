@@ -58,7 +58,7 @@ var App = function (_React$Component) {
     _this.images = (_this._getStaticImages()).concat([
 			{
         original: PREFIX_URL + `109.png`,
-        embedUrl: 'https://www.youtube.com/embed/5ohfq8jZ_eY?autoplay=1&showinfo=0',
+        embedUrl: 'https://www.youtube.com/embed/XfZSaP93RP8?autoplay=1&showinfo=0',
         description: 'Click for "JUDY LEE Demo Reel".',
 				renderItem: this._renderVideo.bind(this)
 			},
